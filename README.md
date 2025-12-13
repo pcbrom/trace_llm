@@ -1,17 +1,17 @@
-# pcbrom/trace-llm: v1.1 – TraCE-LLM
+# pcbrom/trace-llm: TraCE-LLM
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17924775.svg)](https://doi.org/10.5281/zenodo.17924775)
+[![DOI](https://zenodo.org/badge/1115968829.svg)](https://doi.org/10.5281/zenodo.17925148)
 
-Pedro Carvalho Brom. (2025). pcbrom/trace-llm: datasets (v1.1). Zenodo. https://doi.org/10.5281/zenodo.17899733
+Pedro Carvalho Brom. (2025). pcbrom/trace-llm: datasets. Zenodo. https://doi.org/10.5281/zenodo.17925148
 
 ```bibtex
 @misc{brom_2025_tracellm,
   author       = {Brom, Pedro Carvalho},
-  title        = {{pcbrom/trace-llm: datasets (v1.1)}},
+  title        = {{pcbrom/trace-llm: datasets}},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17924775},
-  url          = {https://doi.org/10.5281/zenodo.17924775}
+  doi          = {10.5281/zenodo.17925148},
+  url          = {https://doi.org/10.5281/zenodo.17925148}
 }
 ```
 
