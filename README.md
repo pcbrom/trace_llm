@@ -1,17 +1,18 @@
 # pcbrom/trace-llm: TraCE-LLM
 
-[![DOI](https://zenodo.org/badge/1115968829.svg)](https://doi.org/10.5281/zenodo.17925148)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17929531.svg)](https://doi.org/10.5281/zenodo.17929531)
 
-Pedro Carvalho Brom. (2025). pcbrom/trace-llm: datasets. Zenodo. https://doi.org/10.5281/zenodo.17925148
+Pedro Carvalho Brom, Di Oliveira, V., & Weigang, L. (2025). pcbrom/trace_llm: 2.2 (2.2). Zenodo. https://doi.org/10.5281/zenodo.17929531
 
 ```bibtex
-@misc{brom_2025_tracellm,
-  author       = {Brom, Pedro Carvalho},
-  title        = {{pcbrom/trace-llm: datasets}},
+@misc{brom_oliveira_weigang_2025_tracellm,
+  author       = {Brom, Pedro Carvalho and Di Oliveira, V. and Weigang, L.},
+  title        = {{pcbrom/trace_llm: 2.2}},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17925148},
-  url          = {https://doi.org/10.5281/zenodo.17925148}
+  version      = {2.2},
+  doi          = {10.5281/zenodo.17929531},
+  url          = {https://doi.org/10.5281/zenodo.17929531}
 }
 ```
 
@@ -205,4 +206,3 @@ The naming of intermediate CSV/Parquet files in the notebooks is part of the *ex
 
 - **Outlier and instability analysis:**  
   Investigate cases where models give correct answers with shallow reasoning, or where adversarial prompts cause abrupt changes in behaviour.
-
