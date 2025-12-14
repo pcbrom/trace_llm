@@ -2,12 +2,12 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17929531.svg)](https://doi.org/10.5281/zenodo.17929531)
 
-Pedro Carvalho Brom, Di Oliveira, V., & Weigang, L. (2025). pcbrom/trace_llm: 2.2 (2.2). Zenodo. https://doi.org/10.5281/zenodo.17929531
+Pedro Carvalho Brom, Di Oliveira, V., & Weigang, L. (2025). TraCE-LLM: Evaluation datasets and pipeline (v2.2) (2.2). Zenodo. https://doi.org/10.5281/zenodo.17929531
 
 ```bibtex
 @misc{brom_oliveira_weigang_2025_tracellm,
   author       = {Brom, Pedro Carvalho and Di Oliveira, V. and Weigang, L.},
-  title        = {{pcbrom/trace_llm: 2.2}},
+  title        = {{TraCE-LLM: Evaluation datasets and pipeline (v2.2)}},
   year         = {2025},
   publisher    = {Zenodo},
   version      = {2.2},
