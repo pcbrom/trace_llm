@@ -26,9 +26,24 @@ The project is centered on the **TraCE-LLM protocol**, which measures latent beh
 - **Depth of Reasoning (DoR)** – logical structure and coherence of the model's reasoning.
 - **Originality (ORI)** – novelty and creativity of the model's output.
 
+For human rater instructions and rubric anchors (DoR/ORI 0–10), see `Instructions Human Evaluation Protocol.pdf`.
+
 The full experimental pipeline (data generation, judgment, and analysis) is documented in the notebooks in this repository and in the datasets released on Zenodo. This repository itself only tracks a **subset of the data files** (benchmark test splits) and all **analysis / pipeline notebooks**.
 
 ---
+
+## Human Evaluation Protocol (DoR/ORI)
+
+The file `Instructions Human Evaluation Protocol.pdf` is a one-page handout intended to be delivered directly to human evaluators. Key requirements:
+
+- Evaluate only the model text under **MODEL OUTPUT**.
+- Do not use external sources; use general knowledge only to judge basic coherence.
+- Do not score based on agreement/disagreement with the topic, nor on answer-key correctness.
+- Assign **integer** scores from **0 to 10** (no decimals) for both dimensions:
+  - **DoR (Depth of Reasoning):** depth, logical chaining, alternatives, justification.
+  - **ORI (Originality):** non-paraphrastic added value, insights/structure beyond the obvious, while staying on-scope.
+
+Recommended anchor points (use the nearest whole number) are provided in the PDF for both DoR and ORI (0, 2, 4, 6, 8, 10).
 
 ## Repository Structure (Tracked Files)
 
@@ -38,6 +53,7 @@ At the root of the repository:
 - `second_step.ipynb` – second-step rubric evaluation notebook (model-internal evaluation).
 - `aed_and_model.ipynb` – analysis of ensemble vs individual models and trait structure.
 - `classical_metrics.ipynb` – computation of classical metrics (accuracy, F1, etc.) on tidy TraCE-LLM outputs.
+- `Instructions Human Evaluation Protocol.pdf` – one-page human rater instructions and DoR/ORI rubric anchors.
 - `LICENSE` – project license.
 - `README.md` – this file.
 
