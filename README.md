@@ -34,16 +34,22 @@ The full experimental pipeline (data generation, judgment, and analysis) is docu
 
 ## Human Evaluation Protocol (DoR/ORI)
 
-The file `Instructions Human Evaluation Protocol.pdf` is a one-page handout intended to be delivered directly to human evaluators. Key requirements:
+The human ratings in this study follow the protocol outlined in `Instructions Human Evaluation Protocol.pdf`, which was provided to all human evaluators. The protocol covers two main rubric dimensions:
 
-- Evaluate only the model text under **MODEL OUTPUT**.
-- Do not use external sources; use general knowledge only to judge basic coherence.
-- Do not score based on agreement/disagreement with the topic, nor on answer-key correctness.
-- Assign **integer** scores from **0 to 10** (no decimals) for both dimensions:
-  - **DoR (Depth of Reasoning):** depth, logical chaining, alternatives, justification.
-  - **ORI (Originality):** non-paraphrastic added value, insights/structure beyond the obvious, while staying on-scope.
+- **DoR (Depth of Reasoning):** Assessed based on logical structure, coherence, chaining of arguments, consideration of alternatives, and quality of justification.
+- **ORI (Originality):** Assessed based on novelty, creativity, non-paraphrastic content, original insights or structure while remaining on-topic.
 
-Recommended anchor points (use the nearest whole number) are provided in the PDF for both DoR and ORI (0, 2, 4, 6, 8, 10).
+**Scoring instructions** (as implemented and enforced in `human_baseline_results.ipynb`):
+
+- Only rate the text under **MODEL OUTPUT**.
+- Do not consult external sources; use only general knowledge for evaluating coherence.
+- Scores must not reflect agreement/disagreement with the answer content, nor adherence to a specific "correct answer".
+- Both DoR and ORI must be rated using **integers from 0 to 10** (no decimals).
+- Identical anchors are used for both metrics (see PDF or rubric): **0, 2, 4, 6, 8, 10** are recommended anchor points, but any whole number 0–10 may be used as appropriate.
+- Ratings outside 0–10 or non-integer entries are treated as missing in the baseline analyses (`human_baseline_results.ipynb`).
+- During analysis, scores are often discretized into bins for agreement metrics (see code in `human_baseline_results.ipynb` for exact bins).
+
+For further details and the rationale behind rater instructions, see both the handout PDF and the code in `human_baseline_results.ipynb`.
 
 ## Repository Structure (Tracked Files)
 
